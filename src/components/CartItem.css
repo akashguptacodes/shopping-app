@@ -1,0 +1,31 @@
+.cart-product-img{
+    height: 10rem;
+    width: 8rem;
+}
+.title{
+    font-weight: 700;
+    color: black;
+    font-size: 1rem;
+}
+.desc{
+    font-size: 0.8rem;
+    color: rgb(98, 94, 94);
+}
+.price{
+    color: rgb(10, 171, 10);
+    font-weight: 700;
+}
+.price-aur-delete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outer-container{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid grey;
+    padding: 0rem rem;
+    padding: 0 2rem;
+}

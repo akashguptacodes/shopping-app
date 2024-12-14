@@ -1,0 +1,43 @@
+.nav-inner-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    overflow: hidden;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.home,.cart{
+    text-decoration: none;
+    color: white;
+}
+.cart-div{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: -2rem;
+    right: -0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: rgb(9, 163, 9);
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cart-icon{
+    position: relative;
+    bottom: 1.4rem;
+}
+.nav-logo{
+    position: relative;
+    top: -0.5rem;
+    height: 6rem;
+    width: 14rem;
+}
